@@ -1,0 +1,18 @@
+
+Gold Price Forecasting Results (2020-2026)
+==========================================
+Best model: LSTM (best architecture)
+LSTM MAPE: 3.0350%
+SARIMAX MAPE: 25.1427%
+ARIMA MAPE: 28.1784%
+
+Best LSTM hyperparameters:
+   Sequence length: 20
+   Units: 100
+   Dropout: 0.1
+   Activation: tanh
+   Batch size: 32
+
+Forecast for 2026-05-29: 3093.20 USD
+
+Full code and data: https://github.com/HABYBYT/gold-forecastin
